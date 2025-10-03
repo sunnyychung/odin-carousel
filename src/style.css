@@ -1,0 +1,60 @@
+:root {
+    font-size: 1vh;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image img {
+    width: 80vw;
+    height: 60vh;
+}
+
+.controls {
+    position: relative;
+
+    bottom: 16vh; 
+}
+
+.controls button {
+    background-color: transparent;
+    border-style: none;
+    text-decoration: solid;
+
+    margin: 0 20px;
+    font-size: 10rem;
+}
+
+.controls button:hover {
+    cursor: pointer;
+}
+
+.tracker {
+    display: flex;
+    gap: 1vw;
+}
+
+.circle {
+    position: relative;
+    bottom: 17vh;
+
+    width: 2vw;
+    height: 2vw;
+    background: transparent;
+    border: 2.5px solid black;
+    border-radius: 50%
+}
+
+.selected {
+    background: white;
+}
